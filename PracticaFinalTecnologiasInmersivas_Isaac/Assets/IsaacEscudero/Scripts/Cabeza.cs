@@ -13,11 +13,11 @@ public class Cabeza : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (Input.GetKey(KeyCode.Q))
+        if (Input.GetKey(KeyCode.E))
         {
             rbHead.AddTorque(transform.up * rotationSpeed, ForceMode.Force);
         }
-        else if (Input.GetKey(KeyCode.E))
+        else if (Input.GetKey(KeyCode.Q))
         {
             rbHead.AddTorque(-transform.up * rotationSpeed, ForceMode.Force);
         }
