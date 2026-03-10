@@ -141,6 +141,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5525733885272222705, guid: b723045a12bd47f4e98fef548af1cac2, type: 3}
+      propertyPath: m_fontSize
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 5525733885272222705, guid: b723045a12bd47f4e98fef548af1cac2, type: 3}
+      propertyPath: m_margin.z
+      value: -173.52362
+      objectReference: {fileID: 0}
+    - target: {fileID: 5525733885272222705, guid: b723045a12bd47f4e98fef548af1cac2, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 6187585430312796812, guid: b723045a12bd47f4e98fef548af1cac2, type: 3}
+      propertyPath: m_text
+      value: You Win !!!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6187585430312796812, guid: b723045a12bd47f4e98fef548af1cac2, type: 3}
+      propertyPath: m_fontSize
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 6187585430312796812, guid: b723045a12bd47f4e98fef548af1cac2, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6187585430312796812, guid: b723045a12bd47f4e98fef548af1cac2, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 70
+      objectReference: {fileID: 0}
     - target: {fileID: 7825883103349306320, guid: b723045a12bd47f4e98fef548af1cac2, type: 3}
       propertyPath: m_Name
       value: UI
