@@ -6,6 +6,7 @@ public class Objectives : MonoBehaviour
     {
         if (collision.gameObject.TryGetComponent<Balas>(out Balas b))
         {
+            GameManager.instance.SumCounter();
             b.DestroyBullet();
             Destroy(this.gameObject);
         }
