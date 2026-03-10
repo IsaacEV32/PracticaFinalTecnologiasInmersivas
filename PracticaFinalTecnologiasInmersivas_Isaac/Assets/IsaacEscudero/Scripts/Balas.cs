@@ -24,7 +24,7 @@ public class Balas : MonoBehaviour
         }
         if (bulletLive <= 0)
         {
-            Destroy(this.gameObject);
+            DestroyBullet();
         }
     }
     IEnumerator TimeBullet()
@@ -32,5 +32,9 @@ public class Balas : MonoBehaviour
         chronometerOn = true;
         yield return new WaitForSeconds(0.1f);
         chronometerOn = false;
+    }
+    public void DestroyBullet()
+    {
+        Destroy(this.gameObject);
     }
 }
