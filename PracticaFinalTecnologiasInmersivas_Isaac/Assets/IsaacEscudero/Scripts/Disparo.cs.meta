@@ -1,2 +1,13 @@
 fileFormatVersion: 2
 guid: f295b5d78e357ab448515862c76d21fe
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - bullet: {fileID: 5231036312466923762, guid: 15c79945515990e4396814a458038115, type: 3}
+  - puntoDeMira: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
